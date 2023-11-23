@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  position: relative;
+}
+
+.header__title-container {
+  position: absolute;
+  right: 48px;
+  top: 36px;
+}
+
+.header__title {
+  position: relative;
+}
+
+.header__title-text {
+  font-family: "Playfair Display", serif;
+  color: white;
+  margin: 0;
+  font-size: 48px;
+}
+
+.header__subtitle {
+  font-family: "Dancing Script", cursive;
+  font-size: 28px;
+  transform: rotate(-15deg);
+  color: #ed7d31;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.header__image-container {
+  height: 420px;
+  overflow: hidden;
+}
+
+.header__image {
+  width: 100vw;
+  height: auto;
+}
+
+.header-divider {
+  background: #ed7d31;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.header-divider p {
+  margin: 0;
+}
+
+.first-section {
+  padding: 0px 16px 16px;
+  font-size: larger;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-section__highlights-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.first-section__highlights-container {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  padding: 16px;
+  max-width: 75%;
+  border: solid 1px;
+  border-color: rgb(0 0 0 / 0.1);
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+.first-section__highlights-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.first-section__highlights-name {
+  margin: 8px 0 0;
+  font-size: 18px;
+}
+
+.first-section__highlights-description {
+  color: #4f4a45;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.first-section__highlights-button {
+  background: #ed7d31;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 24px 8px;
+  border: solid 1px;
+  border-color: white;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.categories {
+  background: #ed7d31;
+  color: white;
+  padding-bottom: 16px;
+}
+
+.categories__title {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.categories__list {
+  display: flex;
+  flex-direction: row;
+  margin: 8px 24px 16px;
+  gap: 24px;
+}
+
+.categories__column {
+  flex: 1;
+}
+
+.categories__list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+.categories__list li {
+  margin: 8px 0;
+}
+
+.mission {
+  background-color: #4f4a45;
+  color: white;
+  padding: 0 24px 24px;
+}
+
+.mission__title {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.mission__description {
+  font-size: 18px;
+  line-height: 30px;
+}
