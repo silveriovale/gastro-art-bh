@@ -40,14 +40,10 @@ body {
   right: 8px;
 }
 
-.header__image-container {
-  height: 420px;
-  overflow: hidden;
-}
-
 .header__image {
   width: 100vw;
   height: auto;
+  display: block;
 }
 
 .header-divider {
